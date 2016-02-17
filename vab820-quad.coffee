@@ -66,7 +66,7 @@ module.exports =
 		machine: 'vab820-quad'
 		image: 'resin-image-flasher'
 		fstype: 'resin-sdcard'
-		version: 'yocto-fido'
+		version: 'yocto-jethro'
 		deployArtifact: 'resin-image-flasher-vab820-quad.resin-sdcard'
 
 	options: [ networkOptions.group ]
