@@ -5,4 +5,5 @@ SRC_URI_append_vab820-quad = " \
     file://change_bootcmd.patch \
     file://0001-uboot-support-gcc5.patch \
     file://0002-use-gcc-inline-version.patch \
+    file://gcc5_no-unalligned-access.patch \
     "
