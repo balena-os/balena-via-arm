@@ -1,4 +1,4 @@
-deviceTypesCommon = require 'resin-device-types/common'
+deviceTypesCommon = require '@resin.io/device-types/common'
 { networkOptions, commonImg, instructions } = deviceTypesCommon
 
 BOARD_SHUTDOWN_VIA = 'The device is performing a shutdown. Please wait until the device is offline in the dashboard and disconnect the power cable.'
