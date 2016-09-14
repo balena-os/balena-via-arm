@@ -13,6 +13,7 @@ postProvisioningInstructions = [
 ]
 
 module.exports =
+	version: 1
 	slug: 'via-vab820-quad'
 	aliases: [ 'vab820-quad' ]
 	name: 'VIA VAB 820-quad'
@@ -49,8 +50,7 @@ module.exports =
 	configuration:
 		config:
 			partition:
-				primary: 4
-				logical: 1
+				primary: 1
 			path: '/config.json'
 
 	initialization: commonImg.initialization
