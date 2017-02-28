@@ -40,9 +40,9 @@ module.exports =
 	yocto:
 		machine: 'vab820-quad'
 		image: 'resin-image-flasher'
-		fstype: 'resin-sdcard'
+		fstype: 'resinos-img'
 		version: 'yocto-jethro'
-		deployArtifact: 'resin-image-flasher-vab820-quad.resin-sdcard'
+		deployArtifact: 'resin-image-flasher-vab820-quad.resinos-img'
 		compressed: true
 
 	options: [ networkOptions.group ]
