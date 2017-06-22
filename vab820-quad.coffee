@@ -18,7 +18,7 @@ module.exports =
 	aliases: [ 'vab820-quad' ]
 	name: 'VIA VAB 820-quad'
 	arch: 'armv7hf'
-	state: 'released'
+	state: 'discontinued'
 
 	stateInstructions:
 		postProvisioning: postProvisioningInstructions
